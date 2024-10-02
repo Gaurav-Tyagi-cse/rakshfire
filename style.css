@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.add-links
+{
+    height: 25px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: Open Sans,Arial,sans-serif;
+
+}
+
+.add-links a{
+    text-decoration: none;
+    color: white;
+    margin: 17px;
+}
+
+.img-sec
+{
+    display: flex;
+    align-items: center;
+
+}
+.nav-img1{
+    height: 150px;
+    width: 150px;
+}
+
+.nav-sec a
+{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.main-img
+{
+    background-image: url("./images/fire-safety.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    height: 80vh;
+    width: 100%;
+}
+
+.main-img
+{
+    color: white;
+    font-size: 75px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px red;
+    font-family: 'Adamina',Georgia,"Times New Roman",serif !important;
+}
+
+.second-img img{
+    background-size: cover;
+    object-fit: fill;
+    width: 100%;
+    margin-top: 35px;
+}
+.how-works h1{
+    margin-top: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes
+{
+    margin: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    font-family: Open Sans, Arial, sans-serif;
+
+}
+.box img
+{
+
+   height: 200px;
+   width: 200px;
+   padding: 30px;
+}
+
+.btm-border
+{
+    height: 15px;
+    width: 80%;
+    border: 1px solid red;
+    background-color: red;
+    margin-left :130px;
+}
+
+.erp-Annual
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.erp-Annual .box{
+    height: 30vh;
+    width: 500px;
+    margin: 50px;
+    
+}
+
+.erp-Annual .box img
+{
+    padding-left: 120px;
+}
+
+.erp-Annual .box h2{
+    font-weight: bolder;
+    margin: 10px 10px;
+    font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
+}
+.erp-Annual .box p
+{
+    font-size: 15px;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+    line-height: 20px;
+    
+}
+
+.erp-Annual .box button{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    font-size: 15px;
+    color: red;
+    margin:  15px 120px;
+    border: 2px solid white;
+    box-shadow: 0px 30px 110px 14px rgba(152, 165, 181, 0.6)
+}
+
+.box a{
+  text-decoration: none;
+}
